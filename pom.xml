@@ -9,7 +9,7 @@
 
     <groupId>com.fasterxml.woodstox</groupId>
     <artifactId>woodstox-core</artifactId>
-    <version>5.0.3</version>
+    <version>5.0.3-TT.1-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>Woodstox</name>
     <description>
@@ -32,10 +32,10 @@
         <url>https://github.com/FasterXML/woodstox/issues</url>
     </issueManagement>
     <scm>
-        <connection>scm:git:git@github.com:FasterXML/woodstox.git</connection>
-        <developerConnection>scm:git:git@github.com:FasterXML/woodstox.git</developerConnection>
+        <connection>scm:git:git@github.com:tomitribe/woodstox.git</connection>
+        <developerConnection>scm:git:git@github.com:tomitribe/woodstox.git</developerConnection>
         <url>https://github.com/FasterXML/woodstox</url>
-        <tag>woodstox-core-5.0.3</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <properties>
@@ -197,5 +197,19 @@
             </plugin>
         </plugins>
     </reporting>
+
+    <distributionManagement>
+        <repository>
+            <id>tomitribe.releases.https</id>
+            <name>Tomitribe Release Distribution Repository</name>
+            <url>https://repository.tomitribe.com/service/local/staging/deploy/maven2</url>
+        </repository>
+
+        <snapshotRepository>
+            <id>tomitribe.snapshots.https</id>
+            <name>Tomitribe Development Snapshot Repository</name>
+            <url>https://repository.tomitribe.com/content/repositories/snapshots-tomitribe</url>
+        </snapshotRepository>
+    </distributionManagement>
    
 </project>
