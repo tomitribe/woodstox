@@ -9,7 +9,7 @@
 
     <groupId>com.fasterxml.woodstox</groupId>
     <artifactId>woodstox-core</artifactId>
-    <version>5.0.3-TT.1-SNAPSHOT</version>
+    <version>5.0.3-TT.1</version>
     <packaging>bundle</packaging>
     <name>Woodstox</name>
     <description>
@@ -35,7 +35,7 @@
         <connection>scm:git:git@github.com:tomitribe/woodstox.git</connection>
         <developerConnection>scm:git:git@github.com:tomitribe/woodstox.git</developerConnection>
         <url>https://github.com/FasterXML/woodstox</url>
-        <tag>HEAD</tag>
+        <tag>woodstox-core-5.0.3-TT.1</tag>
     </scm>
 
     <properties>
